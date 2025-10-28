@@ -445,4 +445,5 @@ fprintf('  Estimated min-P(error): %.4f (%.2f%%)\n', min_p_error, min_p_error*10
 fprintf('  Achieved accuracy: %.4f (%.2f%%)\n', accuracy, accuracy*100);
 fprintf('  ROC AUC: %.4f\n', roc_auc);
 fprintf('\nThe red star on the ROC curve marks the min-P(error) operating point.\n');
+
 fprintf('This is the theoretically optimal classifier for the given distributions.\n');
